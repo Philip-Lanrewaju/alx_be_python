@@ -13,7 +13,7 @@ MonthlySavings = MonthlyIncome - MonthlyExpense
 
 
 # This prints users monthly savings
-print(f"Your monthly savings are {MonthlySavings}")
+print(f"Your monthly savings are ${MonthlySavings}.")
 
 
 # This calculates users Projected savings after one year
@@ -21,4 +21,4 @@ ProjectedSavings = MonthlySavings*(12 + (MonthlySavings * 12 * 0.05))
 
 
 # This prints the projected savings after one year.
-print(f"Projected savings after one year, with interest, is: ${ProjectedSavings}")
+print(f"Projected savings after one year, with interest, is: ${ProjectedSavings}.")
