@@ -1,6 +1,6 @@
 # Prompt the user to select a current weather
 
-weather = input("What\'s the weather like today? (sunny/rainy/cold):").lower()
+weather = input("What\'s the weather like today? (sunny/rainy/cold):")
 
 # Provide outfit and cautionary recommendation
 if weather == "sunny":
